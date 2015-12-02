@@ -1,0 +1,203 @@
+$ pwd
+/Users/anjelicascheuren/code/wdi/wdi3/kitchen
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+cans.txt	fridge/		pantry/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+cans.txt	fridge/		pantry/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ rm cans.txt
+cans.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/	pantry/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ mv ~/code/wdi/wdi3/kitchen/fridge/trashcan ~/code/wdi/wdi3/kitchen
+/Users/anjelicascheuren/code/wdi/wdi3/kitchen/fridge/trashcan -> /Users/anjelicascheuren/code/wdi/wdi3/kitchen/trashcan
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ mv ~/code/wdi/wdi3/kitchen/fridge/trashcan/sink ~/code/wdi/wdi3/kitchen
+mv: rename /Users/anjelicascheuren/code/wdi/wdi3/kitchen/fridge/trashcan/sink to /Users/anjelicascheuren/code/wdi/wdi3/kitchen/sink: No such file or directory
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3
+$ ls
+index.html	kitchen/
+anjelicascheuren ~/code/wdi/wdi3
+$ cd kitchen
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd trashcan
+anjelicascheuren ~/code/wdi/wdi3/kitchen/trashcan
+$ ls
+banana-peels.txt	chicken-bones.txt	egg-shells.txt		sink/
+anjelicascheuren ~/code/wdi/wdi3/kitchen/trashcan
+$ mv ~/code/wdi/wdi3/kitchen/trashcan/sink ~/code/wdi/wdi3/kitchen
+/Users/anjelicascheuren/code/wdi/wdi3/kitchen/trashcan/sink -> /Users/anjelicascheuren/code/wdi/wdi3/kitchen/sink
+anjelicascheuren ~/code/wdi/wdi3/kitchen/trashcan
+$ ls
+banana-peels.txt	chicken-bones.txt	egg-shells.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/trashcan
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		sink/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd fridge
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ ls
+diapers.txt	freezer/	milk.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ rm diapers.txt
+diapers.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ ls
+freezer/	milk.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ cd freezer
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/freezer
+$ ls
+couch.txt	frozenpeas.txt	icecream.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/freezer
+$ rm couch.txt
+couch.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/freezer
+$ mv ~/code/wdi/wdi3/kitchen/pantry/crisper-drawer ~/code/wdi/wdi3/kitchen/fridge
+/Users/anjelicascheuren/code/wdi/wdi3/kitchen/pantry/crisper-drawer -> /Users/anjelicascheuren/code/wdi/wdi3/kitchen/fridge/crisper-drawer
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/freezer
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ ls
+crisper-drawer/	freezer/	milk.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		sink/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd fridge
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ ls
+crisper-drawer/	freezer/	milk.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ cd crisper-drawer
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt	lettuce.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge/crisper-drawer
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ ls
+crisper-drawer/	freezer/	milk.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/fridge
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		sink/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd pantry
+anjelicascheuren ~/code/wdi/wdi3/kitchen/pantry
+$ ls
+cans.txt	cereal.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/pantry
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		sink/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd sink
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ ls
+clean-dishes.txt	delete-me.txt		dirty-dishes.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ rm delete-me.txt
+delete-me.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ ls
+clean-dishes.txt	dirty-dishes.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ mkdir drying-rack
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ ls
+clean-dishes.txt	dirty-dishes.txt	drying-rack/
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ mv clean-dishes.txt drying-rack
+clean-dishes.txt -> drying-rack/clean-dishes.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ ls
+dirty-dishes.txt	drying-rack/
+anjelicascheuren ~/code/wdi/wdi3/kitchen/sink
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		sink/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd trashcan
+anjelicascheuren ~/code/wdi/wdi3/kitchen/trashcan
+$ ls
+banana-peels.txt	chicken-bones.txt	egg-shells.txt
+anjelicascheuren ~/code/wdi/wdi3/kitchen/trashcan
+$ tree
+.
+├── banana-peels.txt
+├── chicken-bones.txt
+└── egg-shells.txt
+
+0 directories, 3 files
+anjelicascheuren ~/code/wdi/wdi3/kitchen/trashcan
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ ls
+fridge/		pantry/		sink/		trashcan/
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ cd ..
+anjelicascheuren ~/code/wdi/wdi3
+$ ls
+index.html	kitchen/
+anjelicascheuren ~/code/wdi/wdi3
+$ cd kitchen
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ tree
+.
+├── fridge
+│   ├── crisper-drawer
+│   │   ├── apples.txt
+│   │   └── lettuce.txt
+│   ├── freezer
+│   │   ├── frozenpeas.txt
+│   │   └── icecream.txt
+│   └── milk.txt
+├── pantry
+│   ├── cans.txt
+│   └── cereal.txt
+├── sink
+│   ├── dirty-dishes.txt
+│   └── drying-rack
+│       └── clean-dishes.txt
+└── trashcan
+    ├── banana-peels.txt
+    ├── chicken-bones.txt
+    └── egg-shells.txt
+
+7 directories, 12 files
+anjelicascheuren ~/code/wdi/wdi3/kitchen
+$ 
