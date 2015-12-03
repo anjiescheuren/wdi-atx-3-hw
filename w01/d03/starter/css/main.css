@@ -28,9 +28,11 @@ Link Hover Color = #20222a
 footer{
   font-size: 11px;
 }
-
 a{
   text-decoration: none;
   color: blue;
+}
+a:hover{
+  color: #20222a;
 }
 
