@@ -1,0 +1,58 @@
+ul{
+  list-style-type: none;
+}
+.pngs{
+  color: #00d6dd;
+  font-family: "Fredoka One";
+  font-size: 2em;
+  text-align: center;
+}
+.top{
+  background-color: #00d6dd;
+}
+.second{
+  background-image: url(images/background.jpg);
+  text-align: center;
+}
+.mmapp{
+  font-family: "Fredoka One";
+  font-size: 3em;
+  color: yellow;
+}
+.lradio{
+  font-size: .75em;
+  color: yellow;
+  background-color: black;
+}
+.quotable{
+  text-align: center;
+  background-color: #00d6dd;
+}
+.singlebrook{
+  text-align: center;
+  background-color: #00d6dd;
+}
+.newsletter{
+  text-align: center;
+  background-color: #00d6dd;
+}
+.contactinfo{
+  text-align: center;
+}
+img{
+  max-width: 100%;
+}
+.news{
+  max-width: 75%;
+  text-align: center;
+}
+.links{
+  text-align: center;
+}
+.smicons{
+  text-align: center;
+}
+.publications{
+  text-align: center;
+
+}
