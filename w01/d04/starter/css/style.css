@@ -11,13 +11,22 @@ ul{
   background-color: #00d6dd;
 }
 .second{
-  background-image: url(images/background.jpg);
   text-align: center;
+
 }
 .mmapp{
   font-family: "Fredoka One";
   font-size: 3em;
   color: yellow;
+}
+.background{
+  background: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+
 }
 .lradio{
   font-size: .75em;
@@ -41,6 +50,7 @@ ul{
 }
 img{
   max-width: 100%;
+  text-align: center;
 }
 .news{
   max-width: 75%;
