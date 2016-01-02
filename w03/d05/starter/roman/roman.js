@@ -4,6 +4,7 @@ $(function() {
 // romanize(946) => CMXLIII; romanize(55) => LV; romanize(46) => XLVI
   function romanize(number){
     var matches = {
+      0: "",
       1: "I",
       2: "II",
       3: "III",
