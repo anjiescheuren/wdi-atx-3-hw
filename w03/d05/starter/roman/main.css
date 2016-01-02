@@ -1,0 +1,31 @@
+.output {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 20px;
+/*  margin-top: 10px;*/
+  margin-left: 520px;
+  text-align: center;
+}
+
+.romanize {
+  margin: 10px;
+  text-align: center;
+  width: auto;
+  color: red;
+}
+
+.romanize:hover {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+#number {
+  text-align: center;
+  padding: 5px;
+  width: 200px;
+}
+
+body {
+  text-align: center;
+}
