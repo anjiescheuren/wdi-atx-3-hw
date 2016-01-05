@@ -24,21 +24,11 @@ ul{
   color: yellow;
   background-color: black;
 }
-.quotable{
+.quotable, .singlebrook, .newsletter {
   text-align: center;
   background-color: #00d6dd;
 }
-.singlebrook{
-  text-align: center;
-  background-color: #00d6dd;
-}
-.newsletter{
-  text-align: center;
-  background-color: #00d6dd;
-}
-.contactinfo{
-  text-align: center;
-}
+
 img{
   max-width: 100%;
 }
@@ -46,13 +36,7 @@ img{
   max-width: 75%;
   text-align: center;
 }
-.links{
+.contactinfo, .links, .smicons, .publications{
   text-align: center;
 }
-.smicons{
-  text-align: center;
-}
-.publications{
-  text-align: center;
 
-}

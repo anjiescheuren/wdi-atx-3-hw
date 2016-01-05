@@ -6,7 +6,7 @@ $(function() {
 
   function dollarsToPounds(dollarNumber) {
     $(".amount").text("$" + (dollarNumber) + " is \u00A3" + (dollarNumber / 1.4827));
-    var from = ("$" + dollarNumber);
+    var from = (dollarNumber);
     var to = "\u00A3";
     var amount = ("\u00A3" + (dollarNumber / 1.4827));
     console.log(from);
@@ -36,10 +36,10 @@ $(function() {
 
   function currencyConverter(from, to, amount) {
     if (from.includes("$")) {
-      dollarsToPounds(dollarNumber);
+      dollarsToPounds(from);
     }
     else if (from.includes("\u00A3")) {
-      poundsToDollars(poundNumber);
+      poundsToDollars(from);
     }
   }
 
@@ -57,6 +57,13 @@ $(function() {
     var poundNumber = prompt('Enter a Pound Amount');
     poundsToDollars(poundNumber);
     // console.log("\u00A3" + (poundNumber) + " is $" + (poundNumber * 1.4827));
+  });
+
+  $(".something").click(function () {
+    var somethingNumber = prompt('Enter an Amount');
+    currencyConverter(somethingNumber);
+    // console.log("$" + (dollarNumber) + " is \u00A3" + (dollarNumber / 1.4827));
+
   });
 
   // make sure the output is only 2 decimal places

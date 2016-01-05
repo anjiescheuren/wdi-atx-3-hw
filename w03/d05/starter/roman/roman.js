@@ -63,9 +63,7 @@ $(function() {
     // }
 
     for (i = length; i >= 1; i--) {
-
       var digit;
-
       switch (i) {
         case 4:
           digit = parseInt(number[length-i] * 1000);
@@ -80,18 +78,12 @@ $(function() {
           digit = parseInt(number[length-i]);
           break;
       }
-
       var genericString = (matches[digit]);
-
       romanString = romanString + genericString;
     }
-
     $(".output").text(romanString);
-
   })
-
   }
-
   romanize(number);
 });
 
