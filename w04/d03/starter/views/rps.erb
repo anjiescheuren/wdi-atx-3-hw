@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<% computer = @computer_choice.shuffle[0] %>
+
+<% if computer == "rock" && @choice == "rock" %>
+  <h3><%="The computer chose rock. You tie."%></h3>
+
+<% elsif computer == "paper" && @choice == "paper" %>
+  <h3><%="The computer chose paper. You tie."%></h3>
+
+<% elsif computer == "scissors" && @choice == "scissors" %>
+  <h3><%="The computer chose scissors. You tie."%></h3>
+
+<% elsif computer == "paper" && @choice == "rock" %>
+  <h3><%="The computer chose paper. You lose."%></h3>
+
+<% elsif computer == "paper" && @choice == "scissors" %>
+  <h3><%="The computer chose paper. You win."%></h3>
+
+<% elsif computer == "scissors" && @choice == "paper"%>
+  <h3><%="The computer chose scissors. You lose."%><h3>
+
+<% elsif computer == "scissors" && @choice == "rock"%>
+  <h3><%="The computer chose scissors. You win."%></h3>
+
+<% elsif computer == "rock" && @choice == "paper"%>
+  <h3><%="The computer chose rock. You win."%><h3>
+
+<% elsif computer == "rock" && @choice == "scissors"%>
+  <h3><%="The computer chose rock. You lose."%></h3>
+
+<% else %>
+  <h3><%="Enter rock, paper, or scissors."%></h3>
+
+<% end %>
+
+
+</body>
+</html>
