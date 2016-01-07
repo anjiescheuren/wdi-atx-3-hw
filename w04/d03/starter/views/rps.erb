@@ -7,14 +7,8 @@
 
 <% computer = @computer_choice.shuffle[0] %>
 
-<% if computer == "rock" && @choice == "rock" %>
-  <h3><%="The computer chose rock. You tie."%></h3>
-
-<% elsif computer == "paper" && @choice == "paper" %>
-  <h3><%="The computer chose paper. You tie."%></h3>
-
-<% elsif computer == "scissors" && @choice == "scissors" %>
-  <h3><%="The computer chose scissors. You tie."%></h3>
+<% if computer == @choice %>
+  <h3><%="The computer chose #{@choice}. You tie."%></h3>
 
 <% elsif computer == "paper" && @choice == "rock" %>
   <h3><%="The computer chose paper. You lose."%></h3>
