@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+<ul>
+  <li><%= @character.name %></li>
+  <li><%= image_tag @character.photo_url, class: "poster" %></li>
+</ul>
+
+<%= link_to 'Edit', edit_character_path(@character) %> |
+<%= link_to 'Back', characters_path %>

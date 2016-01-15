@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<h1>My Favorite Movies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+   <% @movies.each do |movie| %>
+     <ul>
+       <li><%= movie.title %></li>
+       <li><%= movie.year %></li>
+       <li><%= image_tag movie.poster_url, class: "poster" %></li>
+       <li><%= link_to 'Show', movie %></li>
+       <li><%= link_to 'Edit', edit_movie_path(movie) %></li>
+       <li><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+     </ul>
+   <% end %>
+ </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Movie', new_movie_path %>
