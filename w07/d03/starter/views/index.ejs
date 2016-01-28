@@ -12,19 +12,13 @@
 
       body {
         text-align: center;
+        background-color: <%= backgroundColor %>;
       }
     </style>
   </head>
 
-  <body onload='return setRandomBackground()'>
-    <script type='text/javascript'>
-      var colors = ["#FFBF00", "#0080FF","#01DF3A","#FF0080"];
+  <body>
 
-      function setRandomBackground() {
-        var bgcolor = colors[Math.floor(Math.random()*colors.length)];
-        $('body').css('background-color', bgcolor);
-      }
-    </script>
 
     <h1 class='compliment'><%= title %></h1>
     <p class='compliment'><%= compliment %></p>
