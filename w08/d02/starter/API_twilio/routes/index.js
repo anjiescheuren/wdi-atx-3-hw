@@ -7,10 +7,13 @@ var client = require('twilio')(accountSid, authToken);
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+    res.render('index', {
+        title: 'Express'
+    });
 });
 
 router.post('/', function(req, res, next) {
+<<<<<<< HEAD
 //require the Twilio module and create a REST client
 
 client.messages.create({
@@ -21,4 +24,8 @@ client.messages.create({
 });
 })
 
+=======
+    
+});
+>>>>>>> b13dac51b6f14de8025fec5438d25b994767f85d
 module.exports = router;
